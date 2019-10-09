@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+body, html{
+	height: 100%;
+}
+body{
+	background-color:#e1b68c;
+	/*background-image: url('../images/airport.jpg');*/
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:#fff;
+}

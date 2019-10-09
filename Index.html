@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>ForeAer</title>
+    <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="resources/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+        	<div class="col-md-12">
+        		<div class="p-3 text-center">
+		            <img class="logo image-responsive" alt="logo" src="./resources/images/foreaer_logo.jpg" width="100" height="125">
+		            <h1>ForeAer Aviation</h1>
+        		</div>
+        	</div>
+        </div>
+        <div class="row">
+        	<div class="col-md-12">
+        		<blockquote class="blockquote text-center p-3">
+				  	<p class="mb-0" id="tag"></p>
+				</blockquote>
+        	</div>
+        </div>
+        <div class="row">
+        	<div class="col-md-12">
+        		<div class="text-center">
+            		<h2>COMING SOON !</h2>
+        		</div>
+        	</div>
+        </div>
+        <div class="row">
+        	<div class="col-md-12">
+            	<div class="text-center p-3">Please subscribe to stay tuned</div>
+	        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-3">
+            	<div class="d-flex">
+            		<div class="ml-auto">
+            			<span id="days">00</span>
+                        <span>Days</span>
+            		</div>
+            		<div class="ml-auto">:</div>
+            	</div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+
+            	<div class="d-flex">
+            		<div class="ml-auto">
+            			<span id="hours">00</span>
+                        <span>Hours</span>
+            		</div>
+            		<div class="ml-auto">:</div>
+            	</div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+
+            	<div class="d-flex">
+            		<div class="ml-auto">
+            			<span id="mins">00</span>
+                        <span>Minutes</span>
+            		</div>
+            		<div class="ml-auto">:</div>
+            	</div>
+            </div>
+            <div class="col-md-3 col-sm-3 pr-0">
+
+            	<div class="d-flex">
+            		<div class="ml-auto">
+            			<span id="secs">00</span>
+                        <span>Seconds</span>
+            		</div>
+            		<div class="ml-auto invisible">:</div>
+            	</div>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-12">
+		        <form action="" method="post" onload="styling()" class="m-5">
+		            <div class="form-group text-center">
+		                <div class="input-group" id="subscribe_grp">
+		                    <input type="email" class="form-control" name="email" id="email" data-form-field="Email" placeholder="Enter Your Email">
+		                    <span class="input-group-btn"><button type="button" class="btn btn-primary btn-md" id="subscribe" onclick="message()" onmouseover="visible()">SUBSCRIBE</button></span>
+		                </div>
+		            </div>
+		            <label id="thanks"></label>
+		        </form>
+        	</div>
+        </div>
+</div>
+	<script type="text/javascript" src="vendors/jquery/jquery.js"></script>
+	<script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="resources/js/functions.js"></script>
+	<script type="text/javascript" src="resources/js/script.js"></script>
+</body>
+</html>
